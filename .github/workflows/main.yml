@@ -33,7 +33,7 @@ jobs:
     - name: Lanzar en Deployment server   #Mediante SSH, se ejecutan comandos en Deployment server
       uses: appleboy/ssh-action@v1.0.3
       with:
-        host: 54.211.14.40
+        host: 3.83.147.15
         username: ubuntu
         key: ${{ secrets.SSH_PRIVATE_KEY }}   #Para esto hace falta crear par de claves asimetricas
         script: |
