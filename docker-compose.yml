@@ -2,7 +2,7 @@ version: '3'
 
 services:
   apache:
-    image: mariocuee38/apachetest:latest
+    image: mariocuee38/apachezoo:latest
     ports:
       - 80:80
     depends_on:
